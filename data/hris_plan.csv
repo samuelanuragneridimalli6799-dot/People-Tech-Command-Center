@@ -1,0 +1,20 @@
+workstream,activity,function,start_week,duration_weeks
+Governance,Mobilise team and agree governance,People Technology,0,2
+Governance,Steering committee and RAID cadence,People Technology,2,30
+Process design,Current state and requirements,People,1,4
+Process design,Global process design and sign-off,People,4,5
+Data,Source data audit and cleansing,Technology,3,8
+Data,Mapping and three trial loads,Technology,11,8
+Data,Cost-centre and payroll data alignment,Finance,9,5
+Configuration,Core employee data and org structure,Technology,8,6
+Configuration,Time off and absence rules,People,10,6
+Integrations,Identity and SSO,Technology,8,5
+Integrations,Payroll and finance interfaces,Technology,12,8
+Legal and security,Data protection assessment and contracts,Legal,2,6
+Legal and security,Employee representative consultation where required,Legal,6,6
+Testing,System integration testing,Technology,18,4
+Testing,User acceptance testing,People,21,4
+Change and training,Stakeholder communications and champions,People,6,16
+Change and training,Manager and employee training,People,20,5
+Cutover,Cutover rehearsal,Technology,24,2
+Cutover,Go-live and hypercare,People Technology,26,6

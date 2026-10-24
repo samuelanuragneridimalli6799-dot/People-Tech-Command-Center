@@ -1,0 +1,16 @@
+phase,task,function,t_minus_days,done
+Pre-cutover,Confirm change freeze on legacy HRIS,People Technology,14,False
+Pre-cutover,Confirm payroll calendar and cutover window with Finance,Finance,14,False
+Pre-cutover,Communicate downtime and support plan to managers,People,10,False
+Pre-cutover,Confirm rollback plan and decision owner,People Technology,7,False
+Data load,Take final extract from legacy HRIS,Technology,3,False
+Data load,Run final load into production,Technology,2,False
+Validation,Reconcile headcount and cost-centre totals,Finance,2,False
+Validation,Reconcile leave balances with payroll,People,2,False
+Validation,Run access and permission checks,Technology,1,False
+Go or no-go,Review exit criteria and open defects,Steering Committee,1,False
+Go or no-go,Record decision and sign-off,Steering Committee,1,False
+Go-live,Open system to users and monitor support queue,People Technology,0,False
+Hypercare,Daily defect triage for first two weeks,People Technology,-1,False
+Hypercare,First payroll run reconciliation,Finance,-14,False
+Hypercare,Close hypercare and hand over to support,People Technology,-42,False

@@ -1,0 +1,13 @@
+source_system,source_field,target_object,target_field,transformation,quality_rule,owner,status
+Legacy HRIS,employee_no,Employee,employee_id,Direct copy,Unique and not null,Data Engineer,Mapped
+Legacy HRIS,first_name + last_name,Employee,legal_name,Concatenate with trim,No leading or trailing spaces,Data Engineer,Mapped
+Legacy HRIS,hire_dt,Employment,start_date,Convert to ISO date,Not in the future; not before birth date plus 16 years,Data Engineer,Mapped
+Legacy HRIS,dept_code,Organisation,department,Lookup to new department table,Every code resolves to one department,People Analytics Lead,In review
+Legacy HRIS,mgr_emp_no,Employment,manager_id,Direct copy,Manager exists and is active; no circular reporting,Data Engineer,Mapped
+Finance system,cost_center,Employment,cost_centre,Lookup to Finance hierarchy,Code exists in approved hierarchy,Finance Controller,Blocked
+Legacy HRIS,work_loc,Employment,work_location,Map free text to location list,Zero unmapped values after cleansing,Data Engineer,In review
+Payroll system,base_salary,Compensation,base_pay,Convert currency and frequency,Matches payroll within 0.5 percent,Payroll Analyst,Not started
+Legacy HRIS,leave_balance,Time off,opening_balance,Recalculate at cutover date,Balances reconcile with payroll,Process Lead,Not started
+Legacy HRIS,contract_type,Employment,contract_type,Map to standard values,Only approved values remain,People Operations Lead,Mapped
+Document store,signed_contract,Documents,contract_file,Bulk upload with metadata,Every active employee has one file,People Operations Lead,Not started
+Identity provider,work_email,Employee,work_email,Direct copy,Unique and matches identity provider,Integration Lead,Mapped
