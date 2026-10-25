@@ -28,7 +28,7 @@ queue = pipeline[pipeline["lane"] != "Parked"]
 c1, c2, c3, c4 = st.columns(4)
 c1.metric("Active initiatives", len(active), f"{red} red, {amber} amber", delta_color="off", delta_arrow="off")
 c2.metric("Milestones overdue", int(initiatives["milestone_overdue"].sum()))
-c3.metric("Vendor decisions due in 90 days", len(due_soon), f"EUR {due_soon['annual_value_eur'].sum():,.0f} in scope", delta_color="off")
+c3.metric("Vendor decisions due in 90 days", len(due_soon), f"EUR {due_soon['annual_value_eur'].sum():,.0f} in scope", delta_color="off", delta_arrow="off")
 c4.metric("Hours/year in automation backlog", f"{queue['hours_saved_year'].sum():,.0f}")
 
 st.subheader("What needs attention this week")
