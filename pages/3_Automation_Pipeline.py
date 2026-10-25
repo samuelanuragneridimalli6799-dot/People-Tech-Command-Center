@@ -49,8 +49,8 @@ wait = planned[planned["lane"] == "Waitlist"]
 
 c1, c2, c3, c4 = st.columns(4)
 c1.metric("Requests in queue", len(queue))
-c2.metric("Fit this quarter", len(fits), f"{fits['effort_days'].sum()} of {capacity} days", delta_color="off")
-c3.metric("On waitlist", len(wait), f"{wait['effort_days'].sum()} days", delta_color="off")
+c2.metric("Fit this quarter", len(fits), f"{fits['effort_days'].sum()} of {capacity} days", delta_color="off", delta_arrow="off")
+c3.metric("On waitlist", len(wait), f"{wait['effort_days'].sum()} days", delta_color="off", delta_arrow="off")
 c4.metric("Hours saved per year if all done", f"{queue['hours_saved_year'].sum():,.0f}")
 
 tab_rank, tab_chart, tab_new = st.tabs(["Ranked backlog", "Effort versus impact", "New request"])
