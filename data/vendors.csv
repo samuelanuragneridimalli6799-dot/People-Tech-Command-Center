@@ -1,12 +1,12 @@
 id,vendor,category,annual_value_eur,renewal_date,notice_days,auto_renew,owner,status,contract_notes,alternatives_watchlist,satisfaction
-V01,Corehub (legacy HRIS),HRIS,168000,2027-06-30,120,Yes,Head of People Technology,Active - sunset after cutover,Decommission date must precede notice deadline,None - being replaced,3
-V02,Talentloop,ATS,74000,2027-01-31,90,Yes,Talent Operations Lead,Under review,Per-seat pricing; 8% uplift clause on renewal,RecruitDesk; HireGrid,4
-V03,PayStream,Payroll,210000,2027-05-31,180,No,Finance Controller,Under review,Data residency terms under legal review,PayMesh; LedgerPay,3
-V04,PerfPilot,Performance,52000,2027-02-28,60,Yes,People Partner Lead,Replacement planned,Low adoption; export of review history is paid add-on,GrowthLoop; ReviewWise,2
-V05,LearnLane,LMS,38000,2027-09-30,60,Yes,Learning Lead,Active,Multi-year discount expires at renewal,SkillStack,4
-V06,SurveySpark,Engagement,24000,2026-11-30,30,Yes,People Analytics Lead,Consolidating,Overlaps with survey module of new HRIS,None,3
-V07,SignRight,E-signature,18000,2027-05-15,45,Yes,Legal Operations,Active,Volume tier based on envelopes,SignFlow,4
-V08,BenefitBay,Benefits,46000,2027-01-01,90,Yes,Total Rewards Lead,Active,Renewal notice window already passed,CareChoice,3
-V09,ShiftSync,Time and attendance,61000,2027-07-31,90,Yes,Operations Lead,Active,Integration with payroll is custom,ClockWise,3
-V10,OrgChartly,Org design,15000,2027-02-14,30,No,People Partner Lead,Active,Month-to-month possible after renewal,None,4
-V11,InsightBoard,Analytics,29000,2027-03-31,60,Yes,People Analytics Lead,Active,Licence count to be reduced to 12 viewers,DashLab,4
+V01,Corehub (legacy HRIS),HRIS,168000,2027-06-30,120,Yes,Head of People Technology,Active - sunset after cutover,"Decommission date must come before the notice deadline",None - being replaced,3
+V02,Talentloop,ATS,74000,2027-01-31,90,Yes,Talent Operations Lead,Under review,"Priced per seat and the contract allows an 8 percent uplift at renewal",RecruitDesk; HireGrid,4
+V03,PayStream,Payroll,210000,2027-05-31,180,No,Finance Controller,Under review,"Long notice period; data residency terms are with Legal",PayMesh; LedgerPay,3
+V04,PerfPilot,Performance,52000,2027-02-28,60,Yes,People Partner Lead,Replacement planned,"Few managers use it and exporting review history costs extra",GrowthLoop; ReviewWise,2
+V05,LearnLane,LMS,38000,2027-09-30,60,Yes,Learning Lead,Active,"The multi-year discount ends at this renewal",SkillStack,4
+V06,SurveySpark,Engagement,24000,2026-11-30,30,Yes,People Analytics Lead,Consolidating,"Overlaps with the survey module in the new HRIS",None,3
+V07,SignRight,E-signature,18000,2027-05-15,45,Yes,Legal Operations,Active,"Price depends on yearly envelope volume",SignFlow,4
+V08,BenefitBay,Benefits,46000,2027-01-01,90,Yes,Total Rewards Lead,Active,"Notice window already passed so it renews automatically",CareChoice,3
+V09,ShiftSync,Time and attendance,61000,2027-07-31,90,Yes,Operations Lead,Active,"The payroll connection was custom built and is poorly documented",ClockWise,3
+V10,OrgChartly,Org design,15000,2027-02-14,30,No,People Partner Lead,Active,"Can move to monthly billing after this renewal",None,4
+V11,InsightBoard,Analytics,29000,2027-03-31,60,Yes,People Analytics Lead,Active,"Licences should drop to 12 viewers at renewal",DashLab,4

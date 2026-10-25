@@ -1,13 +1,13 @@
 id,title,requester,problem,volume_per_month,minutes_per_case,effort,automation_rate,ai_candidate,self_serve_candidate,status
-P01,Employment verification letters,People Operations,Letters are drafted by hand from HRIS data and signed manually,120,15,S,0.9,No,Yes,Scoped
-P02,New-hire onboarding task orchestration,People Operations,Tasks are chased by email across IT and Facilities,60,90,L,0.6,No,No,New
-P03,Job-change request intake and routing,People Partners,Requests arrive by email and are re-keyed into the HRIS,200,12,M,0.7,No,No,Scoped
-P04,Policy question assistant,People Operations,Repeated questions on leave and expenses fill the shared inbox,450,6,M,0.5,Yes,Yes,New
-P05,Headcount report requests,Finance,Ad hoc extracts built manually for each request,40,45,M,0.8,No,Yes,New
-P06,Contract renewal reminders,Legal Operations,Dates are tracked in a spreadsheet and missed reminders are common,25,20,S,0.9,No,No,Scoped
-P07,Offboarding checklist and access removal,IT and People,Checklist is manual and audit evidence is incomplete,50,60,L,0.6,No,No,New
-P08,Survey comment theme summarisation,People Analytics,Open-text comments are coded by hand after each survey,4,240,S,0.7,Yes,No,New
-P09,Org chart refresh requests,Business Leaders,Requests for updated charts arrive weekly,90,20,S,0.9,No,Yes,Scoped
-P10,Payroll variance check,Finance,Month-end comparison is done in spreadsheets,12,120,M,0.5,No,No,Parked
-P11,Manager training reminders,Learning,Completion reminders are sent by hand,80,8,S,0.9,No,No,Scoped
-P12,Interview scheduling,Talent Acquisition,Calendars are coordinated by email,300,10,L,0.5,No,No,Parked
+P01,Employment letters on request,People Operations,"Requests arrive by email and each letter is typed by hand from HRIS data, then signed and sent back",120,15,S,0.9,No,Yes,Scoped
+P02,New-hire task chasing,People Operations,"Onboarding tasks for IT and facilities are chased by email and nobody has one status view",60,90,L,0.6,No,No,New
+P03,Job-change requests in the inbox,People Partners,"Managers email role or pay changes and someone re-types them into the HRIS",200,12,M,0.7,No,No,Scoped
+P04,Policy question assistant,People Operations,"The same leave and expenses questions come back every week and fill a shared inbox",450,6,M,0.5,Yes,Yes,New
+P05,Headcount extracts for Finance,Finance,"Each request needs a fresh extract and manual clean-up before it can be shared",40,45,M,0.8,No,Yes,New
+P06,Contract renewal reminders,Legal Operations,"Dates live in a spreadsheet and reminders depend on one person remembering",25,20,S,0.9,No,No,Scoped
+P07,Leaver checklist and access removal,IT and People,"The checklist is partly manual and audit evidence is scattered across emails",50,60,L,0.6,No,No,New
+P08,Survey comment themes,People Analytics,"Open-text comments are read and coded by hand after every survey",4,240,S,0.7,Yes,No,New
+P09,Org chart refresh requests,Business Leaders,"Leaders ask for updated charts every week and each one is built by hand",90,20,S,0.9,No,Yes,Scoped
+P10,Payroll variance check,Finance,"The month-end comparison is done in spreadsheets and takes most of a day",12,120,M,0.5,No,No,Parked
+P11,Training completion reminders,Learning,"Reminders to managers are sent by hand and often go out late",80,8,S,0.9,No,No,Scoped
+P12,Interview scheduling,Talent Acquisition,"Recruiters coordinate calendars by email across time zones",300,10,L,0.5,No,No,Parked

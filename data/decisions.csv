@@ -1,7 +1,7 @@
 id,date,decision,decided_by,context,linked_initiative
-D01,2026-08-12,Select single HRIS vendor and proceed to contract,Steering Committee,Scoring grid favoured the shortlisted vendor on integration and reporting,I01
-D02,2026-09-02,Use phased rollout with one pilot country before global go-live,Steering Committee,Reduces cutover risk for payroll,I07
-D03,2026-09-16,Keep payroll vendor unchanged until options appraisal completes,Head of People Technology,Avoid parallel change while HRIS is in flight,I12
-D04,2026-09-23,Require business case and owner for every automation request,Head of People Technology,Keeps intake pipeline sized and comparable,I14
-D05,2026-10-07,Freeze cost-centre mapping on 6 November,Finance Controller,Needed for trial load 1,I03
-D06,2026-10-14,Consolidate engagement surveys into HRIS module at renewal,People Analytics Lead,Avoids duplicate tooling cost,I10
+D01,2026-08-12,Select one HRIS vendor and move to contract,Steering Committee,"The shortlisted vendor scored highest on integration and reporting",I01
+D02,2026-09-02,Roll out in phases with one pilot country before global go-live,Steering Committee,"A pilot lowers the cutover risk for payroll",I07
+D03,2026-09-16,Keep the payroll vendor unchanged until the options appraisal is done,Head of People Technology,"Avoids two big changes landing on payroll at once",I12
+D04,2026-09-23,Require a business case and a named owner for every automation request,Head of People Technology,"Keeps requests comparable and the backlog a size we can plan",I14
+D05,2026-10-07,Freeze cost-centre mapping on 6 November,Finance Controller,"Trial load 1 needs a stable list",I03
+D06,2026-10-14,Move engagement surveys into the HRIS module at renewal,People Analytics Lead,"Removes a duplicate tool and its cost",I10

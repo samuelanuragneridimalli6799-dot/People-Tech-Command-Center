@@ -1,15 +1,15 @@
 id,type,description,project,owner,probability,impact,status,mitigation,due,linked_initiative
-R01,Risk,Cost-centre hierarchy changes after data mapping is frozen,HRIS Implementation,Finance Controller,4,4,Open,Freeze date agreed with Finance; change control for hierarchy edits,2026-11-06,I03
-R02,Risk,Key People CoE reviewers unavailable during process design sign-off,HRIS Implementation,Process Lead,3,4,Open,Book review slots now; delegate authority to named deputies,2026-11-04,I02
-R03,Risk,Payroll interface specification not agreed before build starts,HRIS Implementation,Integration Lead,3,5,Open,Joint workshop with payroll vendor in week 2,2026-11-10,I04
-R04,Risk,Low manager adoption after go-live,HRIS Implementation,Change Lead,3,4,Open,Champion network; manager training before cutover,2027-01-15,I06
-R05,Risk,Legacy HRIS notice deadline falls before cutover is stable,HRIS Implementation,Vendor Manager,2,5,Open,Negotiate short extension option in renewal talks,2027-02-01,I07
-R06,Issue,Data residency terms for payroll vendor still in legal review,Payroll Tooling and Data,Legal Counsel,5,3,Open,Escalate to Head of Legal; interim options paper without that section,2026-10-30,I12
-R07,Issue,Mapping v1 review missed deadline,HRIS Implementation,Data Engineer,5,3,Open,Review rescheduled with Finance; decision on cost-centre source requested,2026-10-30,I03
-R08,Dependency,Dashboard v2 needs clean headcount data from migration,People Analytics,Analytics Engineer,4,3,Open,Use snapshot extract for prototype; switch to HRIS feed after trial load 2,2026-12-01,I13
-R09,Assumption,Existing identity provider supports required SSO standard,HRIS Implementation,Integration Lead,2,4,Open,Confirm in sandbox test,2026-11-03,I04
-R10,Risk,Performance tool replacement slips past renewal notice date,SaaS Tooling Replacement,Vendor Manager,3,3,Open,Decide on shortlist by end of November; prepare fallback one-year renewal,2026-12-15,I08
-R11,Risk,Survey history cannot be exported in usable format,SaaS Tooling Replacement,Analytics Lead,2,3,Mitigated,Export format tested on sample,2026-10-20,I10
-R12,Assumption,Team capacity of 40 person-days per quarter for automation requests,People Technology Ops,Project Manager,3,3,Open,Review monthly against actual throughput,2026-11-30,I14
-R13,Risk,Employee representative consultation requirements add time to timeline,HRIS Implementation,Legal Counsel,2,4,Open,Confirm requirements by country at start of process design,2026-11-13,I02
-R14,Issue,Stale epics clutter the planning board,People Technology Ops,Project Manager,4,2,Open,Archive rules agreed; bulk archive scheduled,2026-10-28,I15
+R01,Risk,"Cost-centre hierarchy changes after the data mapping is frozen",HRIS Implementation,Finance Controller,4,4,Open,"Agree a freeze date with Finance and put hierarchy edits under change control",2026-11-06,I03
+R02,Risk,"Reviewers are unavailable when process design needs sign-off",HRIS Implementation,Process Lead,3,4,Open,"Book review slots now and name a deputy for each reviewer",2026-11-04,I02
+R03,Risk,"Payroll interface specification is not agreed before the build starts",HRIS Implementation,Integration Lead,3,5,Open,"Run a joint workshop with the payroll vendor in the first week of November",2026-11-10,I04
+R04,Risk,"Managers do not adopt the new system after go-live",HRIS Implementation,Change Lead,3,4,Open,"Recruit manager champions and train managers before cutover",2027-01-15,I06
+R05,Risk,"Legacy HRIS notice deadline falls before cutover is stable",HRIS Implementation,Vendor Manager,2,5,Open,"Ask the legacy vendor for a short extension option in the renewal talks",2027-02-01,I07
+R06,Issue,"Legal review of the payroll vendor's data residency terms is still open",Payroll Tooling and Data,Legal Counsel,5,3,Open,"Escalate to the Head of Legal and write the options paper without that section for now",2026-10-30,I12
+R07,Issue,"Finance review of mapping v1 missed its date",HRIS Implementation,Data Engineer,5,3,Open,"Reschedule the review and ask for a decision on the master cost-centre list",2026-10-30,I03
+R08,Dependency,"The dashboard needs clean headcount data from the migration",People Analytics,Analytics Engineer,4,3,Open,"Use a snapshot extract for the prototype and switch to the HRIS feed after trial load 2",2026-12-01,I13
+R09,Assumption,"The identity provider supports the single sign-on standard the new system needs",HRIS Implementation,Integration Lead,2,4,Open,"Confirm in the sandbox test on 3 Nov",2026-11-03,I04
+R10,Risk,"Performance tool replacement slips past the notice date",SaaS Tooling Replacement,Vendor Manager,3,3,Open,"Decide on the shortlist by end of November and keep a one-year renewal as the fallback",2026-12-15,I08
+R11,Risk,"Survey history cannot be exported in a usable format",SaaS Tooling Replacement,Analytics Lead,2,3,Mitigated,"Export tested on a sample and the format works",2026-10-20,I10
+R12,Assumption,"The team has about 40 person-days a quarter for automation requests",People Technology Ops,Project Manager,3,3,Open,"Compare against actual throughput every month and adjust",2026-11-30,I14
+R13,Risk,"Employee representative consultation adds time in some countries",HRIS Implementation,Legal Counsel,2,4,Open,"Confirm requirements country by country at the start of process design",2026-11-13,I02
+R14,Issue,"Old epics clutter the planning board and hide real work",People Technology Ops,Project Manager,4,2,Open,"Archive rules agreed and the bulk archive is scheduled",2026-10-28,I15
