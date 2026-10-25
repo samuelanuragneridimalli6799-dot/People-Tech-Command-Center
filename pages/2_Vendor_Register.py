@@ -16,8 +16,8 @@ upcoming = v[(v["days_to_notice"] >= 0) & (v["days_to_notice"] <= 90)]
 locked = v[v["flag"] == "Locked in (auto-renewed)"]
 c1, c2, c3, c4 = st.columns(4)
 c1.metric("Annual spend", f"EUR {v['annual_value_eur'].sum():,.0f}")
-c2.metric("Decisions due in 90 days", len(upcoming), f"EUR {upcoming['annual_value_eur'].sum():,.0f}", delta_color="off")
-c3.metric("Already locked in", len(locked), f"EUR {locked['annual_value_eur'].sum():,.0f}", delta_color="off")
+c2.metric("Decisions due in 90 days", len(upcoming), f"EUR {upcoming['annual_value_eur'].sum():,.0f}", delta_color="off", delta_arrow="off")
+c3.metric("Already locked in", len(locked), f"EUR {locked['annual_value_eur'].sum():,.0f}", delta_color="off", delta_arrow="off")
 c4.metric("Average satisfaction (1-5)", f"{v['satisfaction'].mean():.1f}")
 
 cats = ["All"] + sorted(v["category"].unique())
